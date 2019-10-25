@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+
+        <item
+            android:id="@+id/menuNews"
+            android:icon="@drawable/images"
+            android:title="News"
+            app:showAsAction="always|withText" />
+
+        <item
+            android:id="@+id/menuHide"
+            android:title="Hide Action Bar"
+            app:showAsAction="never" />
+
+    <item
+        android:id="@+id/option"
+        android:title="my option1"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/space"
+        android:title="space"
+        app:showAsAction="ifRoom|withText"
+        />
+        <item
+            android:id="@+id/menuExit"
+            android:title="Exit"
+            app:showAsAction="ifRoom" />
+</menu>
